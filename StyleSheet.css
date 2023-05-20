@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Embedded Style Sheet</title>
+<style>
+html{
+      height:100%;
+      width:100%;
+      overflow-x:hidden;
+      overflow-y:hidden;
+    }
+    body{
+      height:100%;
+      width:100%;
+    }
+    p{
+/*      font-family: monospace;,sans-serif;*/
+      font-family: 'times new roman';serif;
+      font-size: 2vw;
+      line-height: 133%;
+      margin: 0;
+      padding:0; 
+      width:90%; 
+        }
+     select{
+      z-index:100;
+      font-size: 1.8vh;
+      width: auto;
+      text-indent:0%;
+    }
+
+    h1{
+      font-family: 'times new roman';serif;
+      font-size: 2vw;
+      line-height: 133%;
+      margin: 0;
+      padding:0;
+      width:100%;
+    }
+
+    h4{
+      font-family: monospace;
+      font-size:2vh;
+      margin:0px;
+      padding-top:1vh;
+    }
+
+    img{
+      width:100%;
+    }
+
+    a.img:hover{
+      border-style: solid;
+      border-width: 1px;
+      border-color: blue;
+    }
+
+    iframe{
+      width: 97%;
+      height: 90%;
+      border: none;
+    }
+
+    .menuitem {
+    margin-bottom:3%;
+  }
+
+    #enter{
+    position: fixed;
+    left:0;
+    top:0;
+    width:25%;
+    height:95%;
+    margin:0px;
+    padding:2%;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    }
+
+    #exit{
+    position: fixed;
+    top:96%;
+    left:0;
+    width:100%;
+    height:5%;
+    padding:.2vh 0vh 0.2vh 2%;
+    }
+
+    #about{
+      top:0;
+      z-index: 0;
+      position:relative;
+      left:25%;
+      margin:0px;
+/*      padding:2% 2% 2% 5%;*/
+/*      width:55%;*/
+      width:70%;
+      height:90%;
+      overflow-x:hidden;
+      overflow-y: hidden;
+      float:left;
+    }
+
+/*     #text{*/
+      z-index: 50;
+      position:absolute;
+      top:250%;
+      left:0px;
+      margin-top:10vh;
+      padding:2%;
+      width:97%;
+      height:90%;
+      overflow-x:hidden;
+      overflow-y: hidden;
+    }
+
+    #home{
+    position:relative;
+    top:0;
+    left:0;
+    width:33%;
+    height:100;
+    margin:0%;
+    }
+
+    #CV{
+    position:absolute;
+    border: .5vh solid blue;
+    top:205%;
+/*former    left:0px;*/
+    left:33%;
+    margin-top:0;
+    margin-bottom:5vh;
+
+    padding:0%;
+    width:60%;
+    height:95%;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    }
+
+   /* #spacer:{
+      position:fixed;
+      height:100%;
+      width:20%;
+    }*/
+
+/*  GRIDSTYLE BELOW  */
+
+.grid-container{
+	top:0;
+	left:0;
+	margin:0;
+	position:fixed;
+	width:100%;
+	height:100%;
+	display: grid;
+	grid-template-columns: 17% auto;
+	grid-template-rows: 10% 50% auto auto auto;
+	gap: 1vh;
+	background-color: rgb(240, 240, 240);
+	padding: 0%;
+	}
+
+.grid-container > div {
+  background-color: rgb(240, 240, 240);
+  width:auto;
+  width:auto;
+  text-align: left;
+  padding: 1vh 1vh 1vh 1vh;
+  font-size: 1vh;
+}
+
+/*.item1 {
+	padding:10%;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}*/
+
+.item4{
+	overflow-y: scroll;
+}
+
+.item2{
+	grid-row-start:1;
+	grid-row-end:5;
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
+
+.item9{
+  vertical-align: bottom;
+  grid-row-start:5;
+  grid-row-end:5;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+
+   
+</style>
