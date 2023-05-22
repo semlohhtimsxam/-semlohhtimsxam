@@ -164,6 +164,7 @@ html{
 	}
 
 .grid-container > div {
+  border: .1vh solid black;
   background-color: rgb(240, 240, 240);
   width:auto;
   width:auto;
